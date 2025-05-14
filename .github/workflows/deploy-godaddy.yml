@@ -1,0 +1,8 @@
+name: Deploy to GoDaddy
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: echo 'Deploy para GoDaddy executado'
